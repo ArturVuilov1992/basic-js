@@ -15,7 +15,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  * the output should be ["file", "file(1)", "image", "file(1)(1)", "file(2)"]
  *
  */
-function renameFiles(/* names */) {
+function renameFiles(names ) {
   arr = []
   for (let i = 0; i < names.length; i++) {
      if (!arr.includes(names[i])) {

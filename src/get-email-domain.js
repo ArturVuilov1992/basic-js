@@ -18,6 +18,7 @@ function getEmailDomain(email) {
       point = i;
     }
   }
+  
   let domain = inp.splice(point+1).join("");
   return domain;
 }
